@@ -1,0 +1,12 @@
+.badge {
+  font-size: 12px;
+  padding: 2px;
+  border-radius: 5px;
+  margin-left: 10px;
+  text-transform: uppercase;
+  display: none;
+  &.ready {
+    background: rgb(3, 136, 54);
+    display: inline-block;
+  }
+}

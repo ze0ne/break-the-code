@@ -1,0 +1,18 @@
+.indice {
+    background-image: url('../indice.png');
+    width: 300px;
+    height: 180px;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .content {
+        margin: 30px;
+        text-align: center;
+        color: #ecd091;
+        font-family: Arial, Helvetica, sans-serif;
+        h1 {
+            font-size: 20px;
+        }
+    }
+}
